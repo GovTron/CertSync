@@ -1,7 +1,7 @@
 import NavBarWithSearch from "./NavBarWithSearch.tsx"
 import './App.css';
 
-function App() {
+function HomePage() {
   return (
     <>
       <NavBarWithSearch></NavBarWithSearch>
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
