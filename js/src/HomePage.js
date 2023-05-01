@@ -1,4 +1,4 @@
-import NavBarWithSearch from "./NavBarWithSearch.tsx"
+import NavBarWithSearch from "./NavBarWithSearch"
 import './App.css';
 
 function HomePage() {

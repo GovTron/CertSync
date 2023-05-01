@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import HomePage from './HomePage';
-import Certificates from "./Certificates.tsx";
-import NavBarWithSearch from "./NavBarWithSearch.tsx"
+import Certificates from "./Certificates";
+import NavBarWithSearch from "./NavBarWithSearch"
 import {
   createBrowserRouter,
   RouterProvider,
