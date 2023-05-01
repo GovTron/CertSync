@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import HomePage from './HomePage';
+import Certificates from "./Certificates.tsx";
+import NavBarWithSearch from "./NavBarWithSearch.tsx"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,7 +13,11 @@ import reportWebVitals from './reportWebVitals';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
+    element: <Certificates />,
+  },
+  {
+    path: "/certificates",
+    element: <Certificates />,
   },
 ]);
 
