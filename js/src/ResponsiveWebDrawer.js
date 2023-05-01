@@ -19,7 +19,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { FunctionComponent } from 'react';
 
 
-const drawerWidth = 240;
+const drawerWidth = 180;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' }) (({ theme, open }) => ({
   flexGrow: 1,
